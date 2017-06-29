@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-06-29T12:37:57.673Z</updated>
+  <updated>2017-06-29T12:46:39.842Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,13 +20,13 @@
     <link href="http://yoursite.com/2017/06/29/Build-you-blog-system-with-Github-and-Hexo/"/>
     <id>http://yoursite.com/2017/06/29/Build-you-blog-system-with-Github-and-Hexo/</id>
     <published>2017-06-29T11:18:44.000Z</published>
-    <updated>2017-06-29T12:37:57.673Z</updated>
+    <updated>2017-06-29T12:46:39.842Z</updated>
     
     <content type="html"><![CDATA[<p></p><h4>准备 </h4><p></p>
 <li>安装 <a href="https://nodejs.org/en/" target="_blank" rel="external">Nodejs</a>。</li><br><li>安装 <a href="https://desktop.github.com/" target="_blank" rel="external">Git Windows</a>。</li><br><h4>Github 配置 </h4><br><li>登录<a href="https://github.com/" target="_blank" rel="external">Github</a>，注册一个用户，如xyz。</li><br><li>根据<a href="https://pages.github.com" target="_blank" rel="external">github pages</a>的提示，创建一个仓库名为xyz.github.io， 之后就可以通过 <a href="https://xyz.github.io" target="_blank" rel="external">https://xyz.github.io</a> 访问。</li><br><h4>Hexo 配置</h4><br><li>安装Hexo:<br>配置好github后，打开git shell，输入<code>npm install hexo-cli -g</code>命令安装。<br></li><br><li>配置Hexo:<br>cd到你自定义用来创建博客的文件夹，输入 <code>npm install hexo --save</code>。<br></li><br><li>创建Blog：<br><code>hexo init &lt;floder&gt;</code> <br> <code>cd &lt;floder&gt;</code> <br> <code>npm install</code><br></li><br><li>安装插件：<br><code>npm install hexo-generator-index --save</code><br><code>npm install hexo-generator-archive --save</code><br><code>npm install hexo-generator-category --save</code><br><code>npm install hexo-generator-tag --save</code><br><code>npm install hexo-server --save</code><br><code>npm install hexo-deployer-git --save</code><br><code>npm install hexo-deployer-rsync --save</code><br><code>npm install hexo-deployer-openshift --save</code><br><code>npm install hexo-renderer-marked@0.2 --save</code><br><code>npm install hexo-renderer-stylus@0.2 --save</code><br><code>npm install hexo-generator-feed@1 --save</code><br><code>npm install hexo-generator-sitemap@1 --save</code><br></li><br><li>基本命令：<br>1. 创建名为title的新的文章:<code>hexo new &quot;title&quot;</code>，也可在source\posts手动编辑。<br>2. 生成本地预览:<code>hexo server</code>, 成功后登录<code>localhost：4000</code>可查看效果。<br>3. 生成public静态文件:<code>hexo generate</code>, 会将md文件转成html等文件，public中的文件可发布到github上。<br>4. 发布到github:<code>hexo deploy</code>, 将内容发布到github上，前提是需要在config文件中将deploy类型指定为git，仓库为<a href="https://github.com/xyz/xyz.github.io。" target="_blank" rel="external">https://github.com/xyz/xyz.github.io。</a><br></li><br><h4>主题设置 </h4><br><li>安装主题，可参考<a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Next</a>或<a href="https://hexo.io/themes/" target="_blank" rel="external">Hexo Themes</a>。</li><br><li>在config文件中修改主题，将theme指定到你安装的主题，如Next。</li><br><li>创建tags可输入<code>hexo new page &quot;tags&quot;</code>,会在source下生成tags文件夹，打开其中的index.md,添加<code>type: tags</code>即可。</li><br><li>创建categories可输入<code>hexo new page &quot;categories&quot;</code>,会在source下生成categories文件夹，打开其中的index.md，添加<code>type： categories</code>即可。</li>
 
 <p></p><h4>参考</h4><p></p>
-<li><a href="https://wsgzao.github.io/post/hexo-guide/" target="_blank" rel="external">使用GitHub和Hexo搭建免费静态Blog</a></li>
+<li><a href="https://wsgzao.github.io/post/hexo-guide/" target="_blank" rel="external">使用GitHub和Hexo搭建免费静态Blog</a></li><br><li><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo文档</a></li>
 
 
 
