@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2017/06/29/machine-learning-related/</loc>
+    
+    <lastmod>2017-06-29T13:01:56.251Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2017/06/29/Build-you-blog-system-with-Github-and-Hexo/</loc>
     
-    <lastmod>2017-06-29T12:46:39.842Z</lastmod>
+    <lastmod>2017-06-29T13:01:42.248Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/06/29/tech%20summit/</loc>
+    
+    <lastmod>2017-06-29T13:01:19.725Z</lastmod>
     
   </url>
   
@@ -26,13 +40,6 @@
     <loc>http://yoursite.com/tags/index.html</loc>
     
     <lastmod>2017-06-29T10:37:22.029Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2017/06/29/tech%20summit/</loc>
-    
-    <lastmod>2017-06-29T09:10:06.101Z</lastmod>
     
   </url>
   
