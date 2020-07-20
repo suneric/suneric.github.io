@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Researches 
+layout: default
+title: My Research
 ---
 
 # Intelligent Robot Control with Genetic Fuzzy System
